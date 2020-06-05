@@ -3,8 +3,6 @@ package encryptdecrypt;
 public class Main {
     public static void main(String[] args) {
 
-        String[] arguments = {"-key", "10", "-alg", "shift", "-mode", "dec", "-data", "dbokcebo"};
-
         Coder coder = new Coder();
         Message message = new Message();
 
